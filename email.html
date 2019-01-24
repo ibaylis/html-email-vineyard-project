@@ -4,7 +4,18 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Our Vineyard</title>
 		<style type="text/css">
-			/* css goes here */
+			@media only screen and (max-width: 660px) {
+				table.container { width: 480px !important; }
+				td.logo img { display: none; }
+				td.logo { background: #fff url(images/logo_medium.gif) no-repeat 10px 10px; height: 45px; }
+			}
+
+			@media only screen and (max-width: 510px) {
+				table.container { width: 100% !important }
+				table.container td { border: none !important }
+				td.logo { background: #fff url(images/logo_small.gif) no-repeat center 10px; height: 32px; }
+			}
+
 		</style>
 	</head>	
 	<body bgcolor="#efe1b0">
@@ -33,8 +44,8 @@
 								
 								<table width="160" align="right" class="button" style="margin: 0px 0px 10px 30px;">
 									<tr>
-										<td style="text-align: center;">
-
+										<td style="text-align: center; background-color: #71a412; padding: 10px 15px; border-radius: 5px;">
+											<a href="#" style="color: #fff; font-size: 18px; letter-spacing: 1px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606; font-family: Arial, Helvetica, sans-serif;">Learn More</a>
 										</td>
 									</tr>
 								
@@ -81,7 +92,7 @@
 											<img src="images/icon_grapes.gif" width="75" height="75"><br>
 											Lorem ipsum dolor sit amet conctetur adipi eiu smod incid amet idun.
 											<br><br>
-											<a href="#">Learn more</a>
+											<a href="#" style="color: #efe1b0;">Learn more</a>
 										</td>
 									</tr>
 								</table>
@@ -91,7 +102,7 @@
 												<img src="images/icon_bottle.gif" width="75" height="75"><br>
 												Ddolore eu fugiat nulla pariatur cupi datat excepteur occaet cupi noin.
 												<br><br>
-												<a href="#">Learn more</a>
+												<a href="#" style="color: #efe1b0;">Learn more</a>
 											</td>
 										</tr>
 									</table>
@@ -102,7 +113,7 @@
 												<img src="images/icon_basket.gif" width="75" height="75"><br>
 												Eiusmod tempor inci didunt ut magna aliqua ut enim ad iam quis.
 												<br><br>
-												<a href="#">Learn more</a>
+												<a href="#" style="color: #efe1b0;">Learn more</a>
 											</td>
 										</tr>
 									</table>
@@ -113,7 +124,7 @@
 												<img src="images/icon_camera.gif" width="75" height="75"><br>
 												Excepteur sint occaecat cupidatat non proident sunt in culpa qui molit.
 												<br><br>
-												<a href="#">Learn more</a>
+												<a href="#" style="color: #efe1b0;">Learn more</a>
 											</td>
 										</tr>
 									</table>	
